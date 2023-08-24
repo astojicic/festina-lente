@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav>
+        <ul>
+          <li><a href="#welcome">Početna</a></li>
+          <li><a href="#about">O nama</a></li>
+          <li><a href="#menu">Jelovnik</a></li>
+          <li><a href="specijaliteti.html">Specijaliteti</a></li>
+          <li><a href="#rezervacije">Rezervacije</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <section id="welcome">
+        <div class="container">
+          <h1>Dobrodošli u restoran "Festina Lente"</h1>
+          <p>Uživajte u vrhunskoj hrani i pićima u prijatnom ambijentu.</p>
+          <a href="#menu">Pogledajte naš jelovnik</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+          <h2>O nama</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quo nam, molestiae, dolorem mollitia iure fugit eveniet possimus iusto, animi et. Veritatis suscipit, at quasi molestias modi sunt repellendus quis in ut excepturi similique eius iusto ad ab ratione voluptate odit dolorem blanditiis aut obcaecati neque aperiam quaerat quia laborum. Dolore quae esse in et quis iste? Recusandae cum earum totam accusamus natus veritatis aliquid ipsam sed aperiam eaque repellat id fugiat velit accusantium nam minima doloribus error magnam, ad quidem exercitationem! Necessitatibus itaque eaque esse nesciunt ad. Veniam alias aut, repellat ipsum unde minus nam aliquam similique provident facere placeat dolorem blanditiis, enim vel minima aspernatur eos omnis sapiente atque quia? Perferendis, delectus repudiandae ipsam placeat impedit reiciendis maiores minus soluta optio vitae sunt accusamus ratione eligendi! Eveniet provident dolor, vero nemo maxime illum quibusdam quo quasi voluptas necessitatibus, voluptatibus distinctio corrupti nulla ipsa minima hic ab expedita voluptatem, fugiat cum tenetur minus. Vero quasi cumque optio autem totam saepe, blanditiis officia quidem porro, aspernatur, nam praesentium sequi nulla error molestias animi veniam inventore nihil expedita repellat rem. Eligendi quo dolor quia fugit voluptatem nulla, dicta optio velit sunt temporibus quos sequi perferendis incidunt non quaerat rem saepe. Explicabo?</p>
+        </div>
+    </section>   
+
+    <section id="menu">
+        <div class="container">
+          <h2>Jelovnik</h2>
+          <div class="menu-item">
+            <h3>Rižoto sa morskim plodovima</h3>
+            <p>Rižoto sa morskim plodovima je naš specijalitet koji se sastoji od mešavine raznih vrsta morskih plodova, riže, belog vina, maslinovog ulja, belog luka i začina.</p>
+            <span class="price">28&euro;</span>
+          </div>
+          <div class="menu-item">
+            <h3>Teleća šnicla u sosu od pečuraka</h3>
+            <p>Teleća šnicla u sosu od pečuraka je jelo koje će sigurno zadovoljiti Vaša čula ukusa. Servirana sa krompir pireom, zelenom salatom i belim vinom.</p>
+            <span class="price">35&euro;</span>
+          </div>
+          <div class="menu-item">
+            <h3>Piletina sa limunom i ruzmarinom</h3>
+            <p>Sočna piletina pečena sa limunom i ruzmarinom, servirana sa preukusnim krompir pireom i sezonskim povrćem.</p>
+            <span class="price">22&euro;</span>
+          </div>
+          <div class="menu-item">
+            <h3>Cezar salata sa piletinom</h3>
+            <p>Klasična Cezar salata sa sočnim komadima piletine, hrskavim krutonima, parmezanom i prelivom od maslina. </p>
+            <span class="price">14&euro;</span>
+          </div>
+          <div class="menu-item">
+            <h3>Piletina sa karijem</h3>
+            <p>Piletina sa karijem i kokosovim mlekom, servirana sa pirinčem i povrćem.</p>
+            <span class="price">18&euro;</span>
+          </div>
+          <div class="menu-item">
+            <h3>Riba na žaru sa limunom i belim lukom</h3>
+            <p>Sočna riba na žaru sa prelivom od limuna i belog luka, servirana sa salatom od paradajza i krastavaca.</p>
+            <span class="price">26&euro;</span>
+          </div>
+        </div>
+    </section>
+
+    <section id="rezervacije">
+      <div class="container">
+        <h2>Rezervacije</h2>
+        <p>Za rezervaciju stola popunite sledeću formu:</p>
+        <form id="rezervacija-forma">
+          <label for="ime">Ime:</label>
+          <input type="text" id="ime" name="ime">
+    
+          <label for="prezime">Prezime:</label>
+          <input type="text" id="prezime" name="prezime">
+    
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+    
+          <label for="broj-osoba">Broj osoba:</label>
+          <input type="number" id="broj-osoba" name="broj-osoba">
+    
+          <label for="datum">Datum:</label>
+          <input type="date" id="datum" name="datum">
+    
+          <label for="vreme">Vreme:</label>
+          <input type="time" id="vreme" name="vreme">
+    
+          <button type="submit">Pošalji</button>
+        </form>
+      </div>
+    </section>
+    
+
+    <section id="kontakt">
+        <div class="container">
+          <h2>Kontaktirajte nas</h2>
+          <p>Ako imate bilo kakva pitanja, sugestije ili komentare, slobodno nas kontaktirajte putem kontakt forme ispod:</p>
+          <form>
+            <label for="ime">Ime:</label>
+            <input type="text" id="ime" name="ime" required>
+      
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+      
+            <label for="poruka">Poruka:</label>
+            <textarea id="poruka" name="poruka" required></textarea>
+      
+            <button type="submit">Pošalji</button>
+          </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+          <p>&copy; 2023 Restoran Festina Lente. Sva prava zadržana.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

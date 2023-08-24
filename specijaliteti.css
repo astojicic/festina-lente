@@ -1,0 +1,68 @@
+body{
+    background-image: url("./img/header.jpg");
+    background-size: cover;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color:#fff;
+  }
+  
+  .specijalitet {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 350px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    transition: transform 0.3s ease-in-out;
+    padding: 10px;
+  }
+  
+  .specijalitet:hover {
+    transform: translateY(-5px);
+  }
+  
+  .specijalitet:nth-child(2n) {
+    background-color: #d9d9d9;
+  }
+  
+  .specijalitet img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .specijalitet img:hover {
+    transform: scale(1.1);
+  }
+  
+  .specijalitet .naziv {
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    background-color: #fff;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  .specijalitet .cena {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: #ff8c00;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
